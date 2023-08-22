@@ -9,6 +9,8 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 import { ForgotUsernameComponent } from './forgot-username/forgot-username.component';
+import { RegistrationCompleteComponent } from './registration-complete/registration-complete.component';
+import { UserProfileComponent } from './user-profile/user-profile.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -21,6 +23,8 @@ const routes: Routes = [
   {path: 'register', component: RegisterComponent},
   {path: 'forgot-password', component: ForgotPasswordComponent},
   {path: 'forgot-username', component: ForgotUsernameComponent},
+  {path: 'registration-complete', component: RegistrationCompleteComponent},
+  {path: 'user-profile', component: UserProfileComponent},
 ];
 
 @NgModule({
