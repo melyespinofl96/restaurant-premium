@@ -12,6 +12,8 @@ import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.componen
 import { AccessibilityStatementComponent } from './accessibility-statement/accessibility-statement.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
+import { ForgotUsernameComponent } from './forgot-username/forgot-username.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { RegisterComponent } from './register/register.component';
     PrivacyPolicyComponent,
     AccessibilityStatementComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    ForgotPasswordComponent,
+    ForgotUsernameComponent
   ],
   imports: [
     BrowserModule,

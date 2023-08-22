@@ -7,6 +7,8 @@ import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.componen
 import { AccessibilityStatementComponent } from './accessibility-statement/accessibility-statement.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
+import { ForgotUsernameComponent } from './forgot-username/forgot-username.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -17,6 +19,8 @@ const routes: Routes = [
   {path: 'accessibilityStatement', component: AccessibilityStatementComponent},
   {path: 'login', component: LoginComponent},
   {path: 'register', component: RegisterComponent},
+  {path: 'forgot-password', component: ForgotPasswordComponent},
+  {path: 'forgot-username', component: ForgotUsernameComponent},
 ];
 
 @NgModule({
