@@ -11,6 +11,7 @@ import { ForgotPasswordComponent } from './forgot-password/forgot-password.compo
 import { ForgotUsernameComponent } from './forgot-username/forgot-username.component';
 import { RegistrationCompleteComponent } from './registration-complete/registration-complete.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
+import { CartComponent } from './cart/cart.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -25,6 +26,7 @@ const routes: Routes = [
   {path: 'forgot-username', component: ForgotUsernameComponent},
   {path: 'registration-complete', component: RegistrationCompleteComponent},
   {path: 'user-profile', component: UserProfileComponent},
+  {path: 'cart', component: CartComponent},
 ];
 
 @NgModule({

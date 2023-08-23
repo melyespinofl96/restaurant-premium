@@ -16,6 +16,7 @@ import { ForgotPasswordComponent } from './forgot-password/forgot-password.compo
 import { ForgotUsernameComponent } from './forgot-username/forgot-username.component';
 import { RegistrationCompleteComponent } from './registration-complete/registration-complete.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
+import { CartComponent } from './cart/cart.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { UserProfileComponent } from './user-profile/user-profile.component';
     ForgotPasswordComponent,
     ForgotUsernameComponent,
     RegistrationCompleteComponent,
-    UserProfileComponent
+    UserProfileComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule,
